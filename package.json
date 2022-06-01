@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "eslint": "eslint *.js *.cjs",
-    "example": "node export.js http://localhost:8000/example_animation.html svg 25 8 0.0 1.0 output.webm"
+    "example": "node export.js http://localhost:8000/example_animation.html svg 25 8 0.0 1.0 output.mkv"
   },
   "keywords": [
     "svg",
