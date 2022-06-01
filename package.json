@@ -1,0 +1,26 @@
+{
+  "name": "svg_animation_to_frames",
+  "version": "0.10.1",
+  "description": "",
+  "scripts": {
+    "eslint": "eslint *.js *.cjs",
+    "example": "node export.js http://localhost:8000/example_animation.html svg 25 8 0.0 1.0 output.webm"
+  },
+  "keywords": [
+    "svg",
+    "video",
+    "ffmpeg",
+    "transparent",
+    "puppeteer"
+  ],
+  "dependencies": {
+    "@babel/core": "^7.17.0",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-env": "^7.17.0",
+    "ffmpeg-stream": "^0.7.0",
+    "puppeteer": "^14.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.0"
+  }
+}
